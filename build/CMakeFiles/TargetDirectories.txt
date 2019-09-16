@@ -1,0 +1,3 @@
+/Users/marcin/Programming/c++/message_app/build/CMakeFiles/rebuild_cache.dir
+/Users/marcin/Programming/c++/message_app/build/CMakeFiles/edit_cache.dir
+/Users/marcin/Programming/c++/message_app/build/CMakeFiles/app.dir
