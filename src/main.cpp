@@ -5,7 +5,7 @@
 
 int main(int argc, char const *argv[]) {
  
-  LOG("Hello World")
+  LOG("Hello App");
 
   AppAgent l_appAgent{};
 
