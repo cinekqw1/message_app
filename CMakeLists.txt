@@ -3,7 +3,7 @@ project(directory_test)
 
 include_directories(include)
 
-#set(SOURCES src/main.cpp)
+set(SOURCES src/main.cpp)
 
 file(GLOB SOURCES "src/*.cpp")
 
