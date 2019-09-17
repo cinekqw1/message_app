@@ -1,3 +1,0 @@
-/home/choroman/MY_PROJECTS/message_app/build/CMakeFiles/rebuild_cache.dir
-/home/choroman/MY_PROJECTS/message_app/build/CMakeFiles/app.dir
-/home/choroman/MY_PROJECTS/message_app/build/CMakeFiles/edit_cache.dir

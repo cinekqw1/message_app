@@ -3,4 +3,4 @@
 
 How to run:
 
-cd build && cmake .. && make && ./app
+mkdir build && cd build && cmake .. && make && ./app
