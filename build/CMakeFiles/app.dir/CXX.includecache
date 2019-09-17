@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/marcin/Programming/c++/message_app/src/AppAgent.cpp
+/home/choroman/MY_PROJECTS/message_app/src/AppAgent.cpp
 
-/Users/marcin/Programming/c++/message_app/src/main.cpp
+/home/choroman/MY_PROJECTS/message_app/src/main.cpp
 iostream
 -
 
