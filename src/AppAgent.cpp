@@ -22,12 +22,13 @@ void AppAgent::run()
 	
 	std::thread t1(thred_1);
 
-	LOG("main before join");
+	t1.detach(); 
 
-	t1.join(); 
-	LOG("main after join");
+	while (true)
+	{
 
-	//assert(!t1.joinable());
+
+	std::this_thread::sleep_for(1s);
 
 	try {
         if (thd_exception) {
@@ -35,7 +36,17 @@ void AppAgent::run()
         }
     } catch(const std::exception& e) {
         std::cout << "Caught exception \"" << e.what() << "\"\n";
+        thd_exception = nullptr;
+        
+        std::thread t1(thred_1);
+        t1.detach();
     }
+
+	}
+
+	
+
+   
 
 }
 

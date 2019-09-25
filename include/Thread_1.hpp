@@ -1,5 +1,8 @@
 
 #include <../include/Logger.hpp>
+#include <thread>
+
+using namespace std::chrono_literals;
 
 class Thread_1
 {
@@ -10,7 +13,10 @@ public:
 
 	void operator()() const
 	{
-		LOG("Thread_1 is running: " + std::to_string(a) + ", " +  std::to_string(b));	
+		counter++;
+		LOG("Thread_1 is running: counter: " + std::to_string(counter));	
+
+		std::this_thread::sleep_for(2s);
 
 		try
 		{
@@ -22,6 +28,8 @@ public:
 		}
 		
 	}
+
+	static int counter;
 
 private:
 
