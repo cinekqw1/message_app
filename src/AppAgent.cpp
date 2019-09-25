@@ -7,17 +7,18 @@ AppAgent::AppAgent()
 {}
 
 
-
 void AppAgent::run()
 {
-	Stages l_stages = READY;
-	switch(l_stages)
-	{
-		case READY:
-		break;
 
-		case EXIT:
-		break;
+	
+	// Stages l_stages = READY;
+	// switch(l_stages)
+	// {
+	// 	case READY:
+	// 	break;
 
-	}
+	// 	case EXIT:
+	// 	break;
+
+	// }
 }
