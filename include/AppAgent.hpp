@@ -1,4 +1,5 @@
-
+#include <string>
+#include <iostream>
 
 
 class AppAgent
@@ -8,5 +9,5 @@ public:
 	void run();
 
 private:
-
+	
 };
