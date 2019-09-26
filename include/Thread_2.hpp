@@ -4,12 +4,12 @@
 
 using namespace std::chrono_literals;
 
-class Thread_1
+class Thread_2
 {
 
 public:
 
-	Thread_1(int a, int b, std::exception_ptr& excpt);
+	Thread_2(int a, int b, std::exception_ptr& excpt);
 
 	void operator()() const
 	{
@@ -20,7 +20,7 @@ public:
 
 		try
 		{
-			throw std::runtime_error("my_err_thread_1");
+			throw std::runtime_error("my_err_thread_2");
 		}
 		catch(...)
 		{
